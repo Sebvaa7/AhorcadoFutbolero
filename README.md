@@ -1,9 +1,9 @@
 
 <div align="center">
 
-[![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&color=2D5BFF&bgcolor=FFEEEE&data=https://sebvaa7.github.io/Ahorcado/)](https://sebvaa7.github.io/Ahorcado/)
+[![QR Code](https://api.qrserver.com/v1/create-qr-code/?size=150x150&margin=10&color=2D5BFF&bgcolor=FFEEEE&data=https://sebvaa7.github.io/AhorcadoFutbolero/)](https://sebvaa7.github.io/AhorcadoFutbolero/)
 
-[![Play Now](https://img.shields.io/badge/JUGAR_AHORA-2D5BFF?style=for-the-badge&logo=github&logoColor=white)](https://sebvaa7.github.io/Ahorcado/)
+[![Play Now](https://img.shields.io/badge/JUGAR_AHORA-2D5BFF?style=for-the-badge&logo=github&logoColor=white)](https://sebvaa7.github.io/AhorcadoFutbolero/)
 
 </div>
 
