@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ahorcado Futbolero - Jugadores Sudamericanos</title>
+    <link rel="stylesheet" href="j3.css" />
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <div class="contenedor-juego">
+            <header>
+                <h1>Jugadores Europeos ⚽</h1>
+                <p>
+                    Errores: <span id="errores">0/6</span>
+                </p>
+            </header>
+
+            <div class="palabra-oculta" id="palabra-oculta"></div>
+
+            <div id="mensaje"></div>
+
+            <div class="pistas-visuales">
+                <div class="pista-box" id="pista1"></div>
+                <div class="pista-box" id="pista2"></div>
+                <div class="pista-box" id="pista3"></div>
+            </div>
+
+            <div class="teclado" id="teclado"></div>
+
+            <div class="controles">
+                <button id="reiniciar">Nueva Partida</button>
+                <button id="volver">Cambiar Modo</button>
+                <button id="siguiente" disabled>Siguiente</button>
+            </div>
+        </div>
+
+        <div class="contenedor-arco">
+            <h2>El Portero Ahorcado</h2>
+            <div class="arco">
+                <div class="poste-izquierdo"></div>
+                <div class="poste-derecho"></div>
+                <div class="travesaño-arco"></div>
+                <div class="red-arco"></div>
+                <div class="cuerda-arco"></div>
+                <div class="muneco-arco">
+                    <div id="cabeza" class="parte-ahorcado">
+                        <div id="ojo-izquierdo" class="ojo-muerto">X</div>
+                        <div id="ojo-derecho" class="ojo-muerto">X</div>
+                    </div>
+                    <div id="cuerpo" class="parte-ahorcado"></div>
+                    <div id="brazo-izq" class="parte-ahorcado"></div>
+                    <div id="brazo-der" class="parte-ahorcado"></div>
+                    <div id="pierna-izq" class="parte-ahorcado"></div>
+                    <div id="pierna-der" class="parte-ahorcado"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="j3.js"></script>
+</body>
+</html>
